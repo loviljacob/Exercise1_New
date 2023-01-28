@@ -7,14 +7,14 @@ package exercise1;
  *
  * @author dancye
  * @author Paul Bonenfant Jan 25, 2022
- * @author Lovil Jacob  
+ * @author Lovil Jacob   Jan 26 , 2022
  */
 public class CardTrick {
     
     public static void main(String[] args) {
         
         Card[] hand = new Card[7];
-
+        
         for (int i = 0; i < hand.length; i++) {
             Card card = new Card();
             //card.setValue(insert call to random number generator here)
